@@ -6,4 +6,4 @@ db.produtos.find(
     ingredientes: 1,
     valoresNutricionais: { $slice: 3 },
   },
-);
+).pretty();
